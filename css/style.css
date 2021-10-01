@@ -1,0 +1,11 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+ul, li{list-style: none;}
+a{text-decoration: none; color: inherit;}
+img{display: block;}
+.flex{display: flex;}
+
+.container{position: relative; width: 1200px; height: 300px; margin: 0 auto;}
+.container .imgs{position: absolute; top: 0; left: 0; overflow: hidden; width: 1200px; height: 300px; z-index: 10;}
+.container .imgs ul{transition: .5s;}
+.container .btns{position: absolute; width: 100%; height: 100%; top: 0; left: 0; z-index: 30; justify-content: space-between; align-items: center;}
+.container .btns button{width: 40px; height: 60px; margin: 10px; outline: none;}
